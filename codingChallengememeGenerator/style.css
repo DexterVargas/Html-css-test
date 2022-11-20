@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  height: 80vh;
+  flex: 10px;
+  position: relative;
+}
+#imgId {
+  width: 300px;
+  height: auto;
+}
+
+.riddleAnswer {
+  border: none;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 8px 30px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+p {
+  font-style: italic;
+}

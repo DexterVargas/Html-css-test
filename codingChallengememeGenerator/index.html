@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meme Generator</title>
+    <meta charset="UTC-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="panel sidebar">
+        <h2>Output</h2>
+        <h3 id="meme" class="meme">Programmer meme</h3>
+        <!-- <img id="imgId" src="" /> -->
+        <h3 id="joke" class="joke">Tell me something funny!</h3>
+        <p id="paraJokeId"></p>
+        <h3 id="quote" class="quote">Give me some wisdom...</h3>
+        <p id="paraQuoteId"></p>
+        <h3 id="riddle" class="riddle">I want a riddle!</h3>
+        <p id="paraRiddleId"></p>
+        <p id="paraRiddleAnsId"></p>
+      </section>
+      <section class="panel">
+        <button class="btn" id="btnOnClick" onclick="showMeme()">
+          Show a Meme
+        </button>
+        <!-- <button class="btnmeme btn">Show a Meme</button> --><br />
+        <button class="btnjoke btn" type="button">Tell me a Joke</button><br />
+        <button class="btnquote btn" type="button">Random Quote</button><br />
+        <button class="btnriddle btn" type="button">Riddle me</button><br />
+        <button class="riddleAnswer btn" type="button">
+          Reveal Riddle Answer</button
+        ><br />
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
