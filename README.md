@@ -1,2 +1,2 @@
-# Html-css-test
-My First HTML-CSS repository
+Career Shifter
+My road to full-stack WebDev Journey
